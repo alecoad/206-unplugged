@@ -112,6 +112,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -209,8 +211,6 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding: 0 0 7.5px 0;
-  margin: 0;
 }
 
 header nav ul li {
@@ -277,6 +277,7 @@ footer .copyright {
   font-size: 2.25em;
   font-weight: 500;
   line-height: 1.2;
+  margin: 0;
 }
 
 /* Aside */
@@ -286,6 +287,10 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+}
+
+aside h3 {
+  margin: 0 0 20px 0;
 }
 
 aside .form {
@@ -324,7 +329,7 @@ input[type=button] {
 }
 
 .features h2 {
-  margin-bottom: 60px;
+  margin: 0 0 60px 0;
 }
 
 .features article {
@@ -358,7 +363,7 @@ input[type=button] {
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   line-height: 1;
 }
 
@@ -558,7 +563,7 @@ input[type=button] {
   }
 
   header nav {
-    width: 25%;
+    width: 20%;
   }
 
   header nav ul {
@@ -655,6 +660,11 @@ input[type=button] {
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
@@ -776,7 +786,7 @@ input[type=button] {
   }
 
   footer h4 {
-    font-size 1.875em;
+    font-size: 1.875em;
   }
 
   /* -------------------- Desktop Styles - About Page -------------------- */
